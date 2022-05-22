@@ -113,29 +113,6 @@ class BlockchainWelcome extends Component {
         {this.state.showBlock === null && (
           <WalkthroughDialog step={16} title="The end" nextLabel="Bye!">
             <div>
-              <p>
-                Thank you you following this demo. You can continue to play
-                around with this to get a better intuitive understanding of how
-                blockchains work. I especially recommend you to work blocks from
-                various places and see how it impacts the consensus of the
-                system. I would love to hear your feedback, you can find me at{" "}
-                <a
-                  href="https://nambrot.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  nambrot.com
-                </a>
-                . If you enjoyed this demo, feel free to{" "}
-                <a
-                  href="https://twitter.com/intent/tweet?text=Check%20out%20this%20cool%20blockchain%20demo%20at%20blockchain.nambrot.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  tweet it
-                </a>{" "}
-                .
-              </p>
             </div>
           </WalkthroughDialog>
         )}

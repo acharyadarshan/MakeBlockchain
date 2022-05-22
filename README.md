@@ -260,7 +260,6 @@ You should recognize an additional method of keeping miners "honest". If miners 
 
 # Step 7: No free lunches
 
-[Link to Step 7 Demo](https://blockchain-step7.nambrot.com/)
 
 Unless you subscribe to the charitable interpretations of "love thy neighbor", people generally don't like to do things free for others. So why would a mining node add a transaction for a non-mining node? You are right, they wouldn't. So let's add some incentives for them with a transaction fee that we can specify as a transaction author to increase the chances of some mining node adding our transaction to their block.
 
@@ -293,4 +292,4 @@ class UTXOPool {
 
 ## To run
 
-This project is based upon `create-react-app` so a simple `yarn start` will pretty much start everything. You'll only need to start a simple `socket.io` server with `node src/server.js`. You can also run it with `docker-compose` if you prefer. Or find the most recent version running on [blockchain.nambrot.com](https://blockchain.nambrot.com)
+This project is based upon `create-react-app` so a simple `yarn start` will pretty much start everything. You'll only need to start a simple `socket.io` server with `node src/server.js`. You can also run it with `docker-compose` if you prefer.

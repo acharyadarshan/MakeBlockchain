@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - blockchain-{{ .Values.step_name }}.nambrot.com
+    - 
     secretName: echoserver-tls-{{ .Values.step_name }}
   rules:
-  - host: blockchain-{{ .Values.step_name }}.nambrot.com
+  - host: 
     http:
       paths:
       - path: /
